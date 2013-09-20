@@ -19,6 +19,8 @@ ifeq (Ubuntu,${OPSYS})
   endif
 else ifeq (NetBSD,${OPSYS})
   PREFER.yaml-cpp?=	robotpkg
+else ifeq (OpenNao,${OPSYS})
+  PREFER.yaml-cpp?=	robotpkg
 endif
 PREFER.yaml-cpp?=	system
 
@@ -35,6 +37,7 @@ SYSTEM_SEARCH.yaml-cpp=\
 SYSTEM_PKG.Debian.yaml-cpp=	libyaml-cpp-dev
 SYSTEM_PKG.Fedora.yaml-cpp=	yaml-cpp-devel
 SYSTEM_PKG.Ubuntu.yaml-cpp=	libyaml-cpp-dev
+SYSTEM_PKG.Gentoo.yaml-cpp=	dev-cpp/yaml-cpp
 
 endif # YAML_CPP_DEPEND_MK -------------------------------------------------
 
