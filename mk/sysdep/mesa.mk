@@ -25,6 +25,7 @@ SYSTEM_PKG.Fedora.mesa=	mesa-libGL-devel
 SYSTEM_PKG.Ubuntu.mesa=	libgl1-mesa-dev
 SYSTEM_PKG.Debian.mesa=	libgl1-mesa-dev
 SYSTEM_PKG.NetBSD.mesa=		pkgsrc/graphics/MesaLib
+SYSTEM_PKG.Gentoo.mesa=		media-libs/mesa
 
 endif # MESA_DEPEND_MK -----------------------------------------------------
 

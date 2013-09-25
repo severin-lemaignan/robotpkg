@@ -25,7 +25,8 @@ SYSTEM_SEARCH.python26=	$(call _py_syssearch,${_py_search26})
 SYSTEM_PKG.Fedora.python26=	python2.6-devel
 SYSTEM_PKG.Ubuntu.python26=	python2.6-dev
 SYSTEM_PKG.Debian.python26=	python2.6-dev
-SYSTEM_PKG.NetBSD.python26=		pkgsrc/lang/python26
+SYSTEM_PKG.NetBSD.python26=	pkgsrc/lang/python26
+SYSTEM_PKG.Gentoo.python26=	"=dev-lang/python-2.6*"
 
 export PYTHON26=	$(firstword ${SYSTEM_FILES.python26})
 export PYTHON26_LIB=	$(word 2,${SYSTEM_FILES.python26})

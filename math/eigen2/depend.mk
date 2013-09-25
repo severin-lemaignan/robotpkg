@@ -9,6 +9,7 @@ DEPEND_PKG+=		eigen2
 endif
 
 ifeq (+,$(EIGEN2_DEPEND_MK)) # ---------------------------------------------
+
 PREFER.eigen2?=		system
 
 DEPEND_USE+=		eigen2
@@ -28,6 +29,7 @@ SYSTEM_PKG.Fedora.eigen2=	eigen2-devel
 SYSTEM_PKG.Ubuntu.eigen2=	libeigen2-dev
 SYSTEM_PKG.Debian.eigen2=	libeigen2-dev
 SYSTEM_PKG.NetBSD.eigen2=	pkgsrc/math/eigen2
+SYSTEM_PKG.Gentoo.eigen2=	"=dev-cpp/eigen-2*"
 
 endif # EIGEN2_DEPEND_MK ---------------------------------------------------
 

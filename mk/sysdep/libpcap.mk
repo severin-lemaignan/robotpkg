@@ -37,6 +37,7 @@ SYSTEM_SEARCH.libpcap=	\
 SYSTEM_PKG.Fedora.libpcap=	libpcap-devel
 SYSTEM_PKG.Ubuntu.libpcap=	libpcap-dev
 SYSTEM_PKG.Debian.libpcap=	libpcap-dev
+SYSTEM_PKG.Gentoo.libpcap=	net-libs/libpcap
 
 endif # LIBPCAP_DEPEND_MK -------------------------------------------------
 

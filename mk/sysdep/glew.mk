@@ -23,6 +23,7 @@ SYSTEM_PKG.Fedora.glew=glew-devel
 SYSTEM_PKG.Ubuntu.glew=libglew1.6-dev
 SYSTEM_PKG.Debian.glew=libglew1.6-dev
 SYSTEM_PKG.NetBSD.glew=graphics/glew
+SYSTEM_PKG.Gentoo.glew=media-libs/glew
 
 endif # GLEW_DEPEND_MK -----------------------------------------------------
 
