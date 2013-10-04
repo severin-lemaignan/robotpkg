@@ -68,6 +68,11 @@ USE_BOOST_LIBS?=\
 PREFIX.boost-libs=\
   $(sort $(foreach _,${USE_BOOST_LIBS},${PREFIX.boost-lib-$_}))
 
+# if using cmake...
+CMAKE_ARGS+=	-DBoost_LIBRARY_DIRS=${PREFIX.boost-libs}/lib
+CMAKE_ARGS+=	-DBOOST_LIBRARYDIR=${PREFIX.boost-libs}/lib
+CMAKE_ARGS+=	-DBOOST_LIBDIR=${PREFIX.boost-libs}/lib
+
 # mt and/or version suffix. Hairy inside: find anything after `-' and before
 # `.', sort this out and make sure it's consistent.
 BOOST_LIB_SUFFIX=\
