@@ -15,12 +15,9 @@ COMMENT=	Collision detection, soft body and rigid body dynamics library
 LICENSE=	mit
 
 CMAKE_ARGS+=	-DBUILD_SHARED_LIBS=ON
+CMAKE_ARGS+=	-DUSE_GLUT=OFF
 
 include ../../mk/language/c.mk
 include ../../mk/language/c++.mk
 include ../../mk/sysdep/cmake.mk
-include ../../mk/sysdep/freeglut.mk
-include ../../mk/sysdep/libX11.mk
-include ../../mk/sysdep/libXext.mk
-include ../../mk/sysdep/mesa.mk
 include ../../mk/robotpkg.mk
