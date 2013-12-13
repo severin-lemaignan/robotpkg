@@ -1,0 +1,16 @@
+@comment Fri Dec 13 10:27:20 CET 2013
+bin/chilitags-creator
+bin/chilitags-detect
+bin/chilitags-detector
+bin/objects
+include/chilitags/Chilitag.hpp
+include/chilitags/Codec.hpp
+include/chilitags/DetectChilitags.hpp
+include/chilitags/Estimator.hpp
+include/chilitags/ObjectConfig.hpp
+include/chilitags/Objects.hpp
+include/chilitags/Quad.hpp
+include/chilitags/Registrar.hpp
+include/chilitags/TagDrawer.hpp
+lib/libchilitags.so
+lib/pkgconfig/chilitags.pc

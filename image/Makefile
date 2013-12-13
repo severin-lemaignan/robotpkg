@@ -4,6 +4,7 @@
 COMMENT=	Image processing utlities
 
 SUBDIR+=	artoolkitplus
+SUBDIR+=	chilitags
 SUBDIR+=	coriander
 SUBDIR+=	jafar-correl
 SUBDIR+=	jafar-image
