@@ -1,0 +1,17 @@
+@comment Mon Jun 16 22:03:47 CEST 2014
+include/depthimage_to_laserscan/DepthConfig.h
+include/depthimage_to_laserscan/DepthImageToLaserScan.h
+include/depthimage_to_laserscan/DepthImageToLaserScanROS.h
+include/depthimage_to_laserscan/depth_traits.h
+lib/depthimage_to_laserscan/depthimage_to_laserscan
+lib/libDepthImageToLaserScan.so
+lib/libDepthImageToLaserScanNodelet.so
+lib/libDepthImageToLaserScanROS.so
+lib/pkgconfig/depthimage_to_laserscan.pc
+${PYTHON_SITELIB}/depthimage_to_laserscan/__init__.py
+${PYTHON_SITELIB}/depthimage_to_laserscan/cfg/DepthConfig.py
+${PYTHON_SITELIB}/depthimage_to_laserscan/cfg/__init__.py
+share/depthimage_to_laserscan/cmake/depthimage_to_laserscanConfig-version.cmake
+share/depthimage_to_laserscan/cmake/depthimage_to_laserscanConfig.cmake
+share/depthimage_to_laserscan/nodelets.xml
+share/depthimage_to_laserscan/package.xml
